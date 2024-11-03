@@ -74,9 +74,6 @@ cd frontend
 
 ```bash
 npm install
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-npm install chart.js react-chartjs-2
 ```
 
 3. Start the Next.js development server:
@@ -87,9 +84,9 @@ npm run dev
 
 ### 4. Configure Prometheus and AlertManager (Optional)
 
-    1. Install Prometheus and AlertManager.
-    2. Configure Prometheus to scrape metrics from Flask.
-    3. Set up AlertManager with Telegram for critical alerts.
+1. Install Prometheus and AlertManager.
+2. Configure Prometheus to scrape metrics from Flask.
+3. Set up AlertManager with Telegram for critical alerts.
 
 ### Usage
 
